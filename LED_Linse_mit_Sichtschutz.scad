@@ -25,7 +25,7 @@ difference(){
 cylinder(h=2, d1=d, d2 =2.5, $fn=36);
 translate([0,0,3.56])
 sphere(4/2, $fn=100);
-translate([-s/4,-s/4, 0])
+translate([-s/4,-s/4, 1])
 cube([s/2, s/2, s/2]);
 
 }
